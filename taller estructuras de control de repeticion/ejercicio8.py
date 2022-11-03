@@ -1,7 +1,7 @@
 while True:
     contra=int(input())
     if(contra==2002):
-        print("acceso permitido")
+        print("Acceso Permitido")
         break
     if(contra!=2002):
-        print("senha invalida")
+        print("Senha Invalida")
