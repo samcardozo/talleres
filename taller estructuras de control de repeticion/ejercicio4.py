@@ -5,5 +5,3 @@ for i in range (0,12):
     y=x+y
 print(x)
 print(y)
-
-
