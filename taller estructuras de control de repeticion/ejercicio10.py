@@ -1,4 +1,4 @@
-#Dado  la  altura  de    n    estudiantes  de  la  universidad,  hallar  la mayor de todas las alturas.
+
 c=0
 est=int(input("cantidad estudiantes: "))
 edades1=[]
