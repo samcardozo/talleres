@@ -3,17 +3,16 @@ usuarios = {"iperurena": {"nombre": "Iñaki", "apellido": "Perurena","password":
 "aolaizola": { "nombre": "Aimar", "apellido": "Olaizola", "password": "123456" }} 
 N=0
 while True:
-    usu=str(input("usuario: "))
-    con=int(input("contraseña: "))
-    a=usu in usuarios
-    b=con in usuarios.values()
-    c=usuarios["nombre"]
-    d=usuarios["apellido"]
-    if(a==True):
-        print(c)
-        print(d)
-        break
     N=N+1
+    usu=str(input("usuario: "))
+    con=str(input("contraseña: "))
     if(N==3):
         break
+    else:
+        for x,y in usuarios.items():
+            if(usu in x and con in y["password"]):
+                print(y["nombre"])
+                print(y["apellido"])
+                break
+
 
