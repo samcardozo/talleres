@@ -18,9 +18,9 @@ while True:
         aprovados.append(b)
     if(a<6):
         suspendidos.append(b)
+        prom=(t/canestu)
     if(N==canestu):
         break
-prom=(t/canestu)
 print("diccionario",estu)
 print("aprovados",aprovados)
 print("suspendidos: ",suspendidos)
